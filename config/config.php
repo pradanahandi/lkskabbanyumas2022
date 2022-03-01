@@ -1,9 +1,9 @@
 <?php 
   date_default_timezone_set("Asia/Jakarta");
-  $host = "localhost";
-  $user = "root";
-  $pass = "";
-  $db   = "rental";    
+  $host = "yourhostname";
+  $user = "youruser";
+  $pass = "yourpassword";
+  $db   = "yourdatabase";    
   $conn = mysqli_connect($host,$user,$pass,$db);
   if($conn->connect_errno)
   {
